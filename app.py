@@ -8,9 +8,6 @@ from flask import Flask, jsonify, render_template, request
 from nltk.stem import WordNetLemmatizer
 from tensorflow.keras.models import load_model
 
-nltk.download("punkt")
-nltk.download("wordnet")
-
 app = Flask(__name__)
 
 lemmatizer = WordNetLemmatizer()

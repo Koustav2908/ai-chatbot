@@ -9,9 +9,6 @@ from tensorflow.keras.layers import Dense, Dropout
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.optimizers import SGD
 
-nltk.download("punkt")
-nltk.download("wordnet")
-
 lemmatizer = WordNetLemmatizer()
 
 intents = json.loads(open("intents.json").read())
