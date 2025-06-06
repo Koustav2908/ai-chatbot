@@ -1,0 +1,285 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": ["hello", "hi", "hey", "good day", "greetings"],
+            "responses": ["Hello!", "Hey!", "What can I do for you?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "goodbye",
+                "ciao",
+                "cya",
+                "see you later",
+                "see ya"
+            ],
+            "responses": [
+                "Sad to see you go! :(",
+                "Talk to you later!",
+                "GoodBye!"
+            ]
+        },
+        {
+            "tag": "polite",
+            "patterns": ["thankyou", "thanks", "thank you", "thanku"],
+            "responses": ["You're Welcome!", "Aww, No Problem.", "Mention Not!"]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "name?",
+                "call you?",
+                "who are you?",
+                "what's your name?"
+            ],
+            "responses": [
+                "Hello! I am Moon, the assistant of Koustav!",
+                "My name is Moon!",
+                "You can call me Moon!",
+                "I'm Moon!"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": ["how old", "age?"],
+            "responses": [
+                "I'm 21",
+                "Hey! I am 21 years old.",
+                "Moon is 21 years old."
+            ]
+        },
+        {
+            "tag": "hours",
+            "patterns": ["open?", "what hours??", "available?", "you free?"],
+            "responses": ["24/7"]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "help",
+                "assist",
+                "help me?",
+                "need help",
+                "how do I use this?"
+            ],
+            "responses": [
+                "I'm here to help! What do you need assistance with?",
+                "How can I assist you today?",
+                "Feel free to ask me anything."
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "weather?",
+                "weather today?",
+                "weather forecast",
+                "sunny or cloudy?"
+            ],
+            "responses": [
+                "It's rainy nowadays!",
+                "The weather is very rainy with a touch of heat.",
+                "It's monsoon season."
+            ]
+        },
+        {
+            "tag": "jokes",
+            "patterns": ["joke", "make me laugh", "funny line"],
+            "responses": [
+                "Why was six afraid of seven? Because seven eight nine.",
+                "Why don't scientists trust atoms? Because they make up everything!",
+                "Why did the scarecrow win an award? Because he was outstanding in his field!",
+                "What do you call a hippie's wife? Mississippi."
+            ]
+        },
+        {
+            "tag": "quote",
+            "patterns": ["quote", "inspire me", "motivational quote"],
+            "responses": [
+                "The only way to do great work is to love what you do. - Steve Jobs",
+                "Believe you can and you're halfway there. - Theodore Roosevelt",
+                "Life is about making an impact, not making an income. - Kevin Kruse",
+                "Simplicity is the ultimate sophistication. - Leonardo da Vinci"
+            ]
+        },
+        {
+            "tag": "fun_facts",
+            "patterns": ["fun fact", "interesting fact", "fun facts"],
+            "responses": [
+                "Did you know honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still edible!",
+                "The shortest war in history was between Britain and Zanzibar on August 27, 1896. Zanzibar surrendered after 38 minutes."
+            ]
+        },
+        {
+            "tag": "movie",
+            "patterns": [
+                "recommend movies",
+                "suggest good movies",
+                "good movie recommendation",
+                "movie?"
+            ],
+            "responses": ["Oppenheimer", "Iron-Man", "Black Swan", "Deadpool"]
+        },
+        {
+            "tag": "music",
+            "patterns": [
+                "recomend songs",
+                "suggest good music",
+                "good music recommendation",
+                "song listen to"
+            ],
+            "responses": [
+                "Love Story",
+                "Cruel Summer",
+                "Espresso",
+                "Wide Awake",
+                "Dark Horse"
+            ]
+        },
+        {
+            "tag": "game",
+            "patterns": ["game", "good game recomendation", "virtual game"],
+            "responses": [
+                "Fortnite",
+                "Roblox",
+                "Dress to Impress",
+                "BGMI",
+                "Minecraft",
+                "Clash of Clans",
+                "Clash Royale"
+            ]
+        },
+        {
+            "tag": "programminglanguage",
+            "patterns": ["programming language", "language to learn"],
+            "responses": ["C", "C++", "Python", "Java", "JavaScript"]
+        },
+        {
+            "tag": "famous",
+            "patterns": ["famous person", "celebrity?", "influenzer?"],
+            "responses": [
+                "Taylor Swift",
+                "Dwayne Johnson",
+                "Ryan Reynolds",
+                "Scarlett Johansson",
+                "JavaScript",
+                "Dua Lipa",
+                "Addison Rae",
+                "Lana Del Rey"
+            ]
+        },
+        {
+            "tag": "friend",
+            "patterns": ["friend?", "friend of Koustav?", "Who's your buddy?"],
+            "responses": [
+                "Hironmoy Koley",
+                "Sayan Chatterjee",
+                "Jhil Chatterjee",
+                "Ishika Dey",
+                "Anisha Kundu",
+                "Sandip Pal",
+                "Koustab Mukherjee"
+            ]
+        },
+        {
+            "tag": "food",
+            "patterns": ["favourite food", "dish", "food"],
+            "responses": [
+                "Pizza",
+                "Biryani",
+                "Sushi",
+                "Omlette",
+                "Pasta",
+                "Cake",
+                "Cookies",
+                "Momo",
+                "Chicken Wings"
+            ]
+        },
+        {
+            "tag": "brand",
+            "patterns": ["brand", "brand", "luxury brands"],
+            "responses": [
+                "Gucci",
+                "Luis Vutton",
+                "Samsung",
+                "Apple",
+                "H&M",
+                "Titan",
+                "Puma"
+            ]
+        },
+        {
+            "tag": "place",
+            "patterns": ["tourist site", "places to visit", "good destination"],
+            "responses": [
+                "Italy",
+                "South Korea",
+                "Florida",
+                "New Zealand",
+                "Venice",
+                "Singapore"
+            ]
+        },
+        {
+            "tag": "feelings",
+            "patterns": [
+                "not feeling well",
+                "cheer me up",
+                "i'm depressed",
+                "feel better",
+                "sad",
+                "feeling down"
+            ],
+            "responses": [
+                "Go on a walk today!",
+                "Have a good sleep!",
+                "Visit the doctor sometime.",
+                "Don't stress too much. Everything will be alright.",
+                "It's okay to not be okay!"
+            ]
+        },
+        {
+            "tag": "stocks",
+            "patterns": ["popular stock markets"],
+            "responses": [
+                "Groww Stocks",
+                "New York Stock Exchange",
+                "NASDAQ",
+                "Tokyo Stock Exchange",
+                "Hong Kong Stock Exchange",
+                "London Stock Exchange",
+                "Euronext"
+            ]
+        },
+        {
+            "tag": "aiml",
+            "patterns": ["ai", "Artificial", "intellegence"],
+            "responses": [
+                "Artificial Intelligence (AI) is a branch of computer science focused on creating systems or machines that can perform tasks typically requiring human intelligence. These tasks include learning, reasoning, problem-solving, perception, and language understanding."
+            ]
+        },
+        {
+            "tag": "hardware",
+            "patterns": ["who develop you", "who built you", "who made you"],
+            "responses": ["I was developed by Koustav Chatterjee!"]
+        },
+        {
+            "tag": "reply",
+            "patterns": [
+                "fine, you?",
+                "i am good, what about you",
+                "what about you",
+                "wbu",
+                "how are you"
+            ],
+            "responses": [
+                "I am fine, thanks for asking!",
+                "I've never been better, how can I help you?",
+                "Thank you for asking, I am wonderful now that you are here."
+            ]
+        }
+    ]
+}
